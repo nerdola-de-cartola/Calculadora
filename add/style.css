@@ -31,12 +31,14 @@ p {
     margin: 5px 5px;
 }
 
-input#data_number1 {
-    margin: 0px 10px;
+input {
+    margin: 3px;
+}
+
+input#input_number {
     width: 50px;
 }
 
-input#data_number2 {
-    margin: 0px 10px;
-    width: 50px;
+select#numbers_list {
+    width: 160px;
 }
