@@ -18,6 +18,7 @@ function calculateAdd() {
 
 function addNumberToSelect(n){
     select_list.innerHTML = ''
+    select_list.setAttribute('size', add_list.length)
     add_list.forEach(function (n, i) {
         var list_item = document.createElement('option')
         list_item.innerHTML = `Valor ${n} adicionado`
