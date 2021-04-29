@@ -6,11 +6,11 @@ function addNewNumber() {
     console.log(`${number_to_add}`);
     add_list.push(number_to_add)
     console.log(add_list);
-    add_list.sort(function(a,b){
+    add_list.sort(function orderSmallToLarge(a, b){
         if (a > b) {return 1}
 
         if (a < b) {return -1}
-
+        
         if (a = b) {return 0}
     })
 }
