@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(70, 142, 236);
+    font: 15pt Arial;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.290);
+}
+
+section#links {
+    margin-bottom: 15px;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+input[type="number"] {
+    width: 50px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Multiplicar</h1>
+    </header>
+    <section id="links">
+        Escolha uma operação
+        <ul>
+            <li><a href="../add/add.html">Somar</a></li>
+            <li><a href="../subtract/subtract.html">Subtrair</a></li>
+            <li><a href="../multiplication/multiplication.html">Multiplicar</a></li>
+            <li><a href="../division/division.html">Dividir</a></li>
+            <li><a href="../factorial/factorial.html">Fatorial</a></li>
+        </ul>
+    </section>
+    <section>
+        <div id="data">
+            <p id="data">
+                <p>Insira os dados</p>
+                <p>Multiplicar: <input type="number" id="data_number1"> X <input type="number"  id="data_number2"></p>
+                <p></p><input type="button" value="Multiplicar" onclick="multiplyButton()">
+            </p> 
+        </div>
+        <div id="results">Veja os resultados</div>
+    </section>
+    <footer>
+        <p>&copy;Matheus Lucas</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
