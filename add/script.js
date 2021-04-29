@@ -17,9 +17,12 @@ function calculateAdd() {
 }
 
 function addNumberToSelect(n){
-    var list_item = document.createElement('option')
-    list_item.innerHTML = `Valor ${n} adicionado`
-    select_list.appendChild(list_item)
+    select_list.innerHTML = ''
+    add_list.forEach(function (n, i) {
+        var list_item = document.createElement('option')
+        list_item.innerHTML = `Valor ${n} adicionado`
+        select_list.appendChild(list_item)
+    });
 }
 
 function addNumberToArray(n) {
@@ -32,3 +35,4 @@ function addNumberToArray(n) {
         if (a = b) {return 0}
     })
 }
+
