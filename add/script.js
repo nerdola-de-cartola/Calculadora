@@ -1,4 +1,5 @@
 var results = document.getElementById('results')
+var select_list = document.getElementById('numbers_list')
 var add_list = []
 
 function addNewNumber() {
@@ -13,6 +14,7 @@ function addNewNumber() {
 
         if (a = b) {return 0}
     })
+    addNumberToSelect(number_to_add)
 }
 
 function calculateAdd() {
@@ -21,4 +23,10 @@ function calculateAdd() {
         var summation = summation + add_list[index];
     }
     console.log(summation);
+}
+
+function addNumberToSelect(n){
+    var list_item = document.createElement('option')
+    list_item.innerHTML = `Valor ${n} adicionado`
+    select_list.appendChild(list_item)
 }
