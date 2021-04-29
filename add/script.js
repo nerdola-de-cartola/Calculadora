@@ -10,7 +10,15 @@ function addNewNumber() {
         if (a > b) {return 1}
 
         if (a < b) {return -1}
-        
+
         if (a = b) {return 0}
     })
+}
+
+function calculateAdd() {
+    summation = 0
+    for (let index = 0; index < add_list.length; index++) {
+        var summation = summation + add_list[index];
+    }
+    console.log(summation);
 }
