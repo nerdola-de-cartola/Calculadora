@@ -13,7 +13,7 @@ function calculateAdd() {
     for (let index = 0; index < add_list.length; index++) {
         var summation = summation + add_list[index];
     }
-    console.log(summation);
+    showAddResults(summation)
 }
 
 function addNumberToSelect(n){
@@ -36,3 +36,6 @@ function addNumberToArray(n) {
     })
 }
 
+function showAddResults(n) {
+    results.innerHTML = `<p>A soma de todos os itens é igual a ${n}</p>`
+}
