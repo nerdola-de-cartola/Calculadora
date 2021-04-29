@@ -12,10 +12,6 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.290);
 }
 
-section#links {
-    margin-bottom: 15px;
-}
-
 header {
     color: white;
     text-align: center;
@@ -35,10 +31,20 @@ input {
     margin: 3px;
 }
 
+section#links {
+    margin-bottom: 15px;
+}
+
 input#input_number {
     width: 50px;
 }
 
 select#numbers_list {
-    width: 160px;
+    width: 200px;
+}
+
+div#data {
+    position: absolute;
+    margin: 5px 5px 5px 225px;
+    top: 336px;
 }
